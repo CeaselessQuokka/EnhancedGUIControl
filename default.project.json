@@ -1,0 +1,30 @@
+{
+	"name": "EnhancedGUIControl",
+	"tree": {
+		"$className": "DataModel",
+
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+
+			"EnhancedGUIControl": {
+				"$path": "src/EnhancedGUIControl"
+			}
+		},
+
+		"Workspace": {
+			"$className": "Workspace",
+
+			"Baseplate": {
+				"$className": "Part",
+
+				"$properties": {
+					"Size": [512, 20, 512],
+					"Color": [0.38823, 0.37254, 0.38823],
+					"Locked": true,
+					"Anchored": true,
+					"Position": [0, -10, 0]
+				}
+			}
+		}
+	}
+}
