@@ -25,7 +25,7 @@ end
 
 function Initialize.Disconnect()
 	if Initialized then
-		if SettingsService.Get("AllowUserInput") then
+		if not SettingsService.Get("AllowUserInput") then
 			Moving.Disconnect()
 			ZIndex.Disconnect()
 			Aligning.Disconnect()
